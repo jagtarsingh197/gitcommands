@@ -21,3 +21,20 @@ git config --list
 
 - `git config --list` displays the Git configuration settings currently in effect.
 
+Clone the GitHub repository and check its current state:
+
+```bash
+git clone https://github.com/jagtarsingh197/gitcommands.git
+```
+
+- `git clone` downloads a copy of the repository to your computer.
+
+Enter the cloned folder, then check its current state:
+
+```bash
+cd gitcommands
+git status
+```
+
+- `git status` shows the current branch and whether there are uncommitted changes.
+
