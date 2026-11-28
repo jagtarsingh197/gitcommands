@@ -96,3 +96,16 @@ Download changes from the remote repository and update the local branch:
 git pull
 ```
 
+Download new remote branch and commit information without changing the working directory or local branch:
+
+```bash
+git fetch
+```
+
+### `git fetch` vs `git pull`
+
+| Command | What it does | Updates working directory |
+|---|---|---|
+| `git fetch` | Downloads remote changes and updates remote-tracking references | No |
+| `git pull` | Downloads remote changes and merges or rebases them into the current local branch | Yes |
+
