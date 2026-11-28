@@ -96,3 +96,12 @@ Download changes from the remote repository and update the local branch:
 git pull
 ```
 
+Create an additional branch, switch to it, and push it to the remote:
+
+```bash
+git branch additional-commands
+git switch additional-commands
+
+git push --set-upstream origin additional-commands
+```
+
