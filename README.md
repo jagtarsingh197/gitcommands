@@ -115,3 +115,12 @@ Merge the `additional-commands` branch into the current branch:
 git merge additional-commands
 ```
 
+Create an additional branch, switch to it, and push it to the remote:
+
+```bash
+git branch additional-commands
+git switch additional-commands
+
+git push --set-upstream origin additional-commands
+```
+
