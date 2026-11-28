@@ -109,3 +109,9 @@ git fetch
 | `git fetch` | Downloads remote changes and updates remote-tracking references | No |
 | `git pull` | Downloads remote changes and merges or rebases them into the current local branch | Yes |
 
+Merge the `additional-commands` branch into the current branch:
+
+```bash
+git merge additional-commands
+```
+
